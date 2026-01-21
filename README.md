@@ -8,7 +8,7 @@
 
 Most modern AI practitioners are "Framework Architects"—skilled at assembling pre-built components but often disconnected from the underlying mechanics. This repository is designed for those who wish to become **Engineers of the Machine**.
 
-Our methodology follows a strict **Triple-Path Convergence**:
+Our methodology:
 
 1. Conceptual Theory:
 - The Logic of the Model
