@@ -47,9 +47,14 @@ The operator `:=` means **assignment** — the new value of $\theta_j$​ replac
 
 Repeat until convergence:
 
-1. Compute the gradient$$\frac{\partial J}{\partial \theta_j}$$
+1. Compute the gradient
+
+$$\frac{\partial J}{\partial \theta_j}$$
+
 2. Update all parameters simultaneously:
+
 $$\theta_j := \theta_j-\alpha \frac{\partial}{\partial\theta_j}j(\theta)$$
+
 3. Check if the cost $J(\theta)$ is still decreasing.
 
 If steps become tiny → the algorithm is converging.
@@ -61,12 +66,19 @@ If steps become tiny → the algorithm is converging.
 (Full derivation is in **Linear Regression** — this is only a quick illustration.)
 
 For linear regression:
+
 $$j(\theta) = \frac{1}{2}\sum_{i=0}^{m} (f_\theta(x^i) - y^i)^2$$
+
 Its gradient is:
+
 $$\frac{\partial}{\partial\theta_j}j(\theta) = 
+
 2\frac{1}{2}(f_\theta(x^i)-y^i).x_j^i)$$
+
 So the update rule becomes:
+
 $$\theta_j := \theta_j - \alpha\sum_{i=0}^{m}(f_\theta(x^i)-y^i).x_j^i$$
+
 This is **only one example** of gradient descent applied to a specific model.
 
 - For teaching purposes, a “bumpy” surface helps visualize how gradient descent moves downhill.
