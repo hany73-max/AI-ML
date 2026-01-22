@@ -1,3 +1,5 @@
+Linear Regression is a statistical tool that produces a line of best fit for a given dataset analytically. To produce the regression line manually, one needs to perform operations such as mean-squared error and optimizing the cost function; both are explained in detail later.
+
 ### example of a linear regression model:
 ![..](../../material/images/Screenshot%202026-01-20%20210035.png)
 ---
@@ -19,9 +21,11 @@ $$j(\theta) = \frac{1}{2m}\sum_{i=0}^{m} (f_\theta(x^i) - y^i)^2$$
 
 **error** ----> is the vertical difference between the true training data and the predicted value
 
-**the half in the equation is added for simplicity.**
+- **the half in the equation is added for simplicity.**
 when differentiating the equation to get the final minimized equation the ($\frac{1}{2}$) makes the math a bit simpler.
 minimizing the formula with or without the ($\frac{1}{2}$) gives the same results
+
+- The difference is squared to eliminate any negative difference which might occur if the actual value is greater than the predicted value.
 
 ---
 ## applying gradient descent in linear regression:
@@ -81,3 +85,8 @@ to show the iterations ($\alpha$) a bit better here is a
 - If $\alpha$ is too small → takes many iterations to converge
 
 --- 
+
+# References:
+
+- Stanford CS229: Machine Learning - Linear Regression and Gradient Descent | Lecture 2 (Autumn 2018)                  
+- Mathematics Behind Linear Regression paper by (Rahul Ravi)                                                                     
