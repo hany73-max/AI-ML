@@ -76,7 +76,7 @@ $$\theta_j := \theta_j-\alpha \frac{1}{2m}
 Applying the chain rule, the derivative of $(u)^2$ with respect to $u$ is $2u$.
 
 $$\theta_j := \theta_j-\alpha \frac{1}{m}
-\frac{\partial}{\partial\theta_j}\sum_{i=1}^{m} (f_\theta(x^{(i)}) - y^{(i)}).x_j^{(i)}$$
+\sum_{i=1}^{m} (f_\theta(x^{(i)}) - y^{(i)}).x_j^{(i)}$$
 
 ---
 
