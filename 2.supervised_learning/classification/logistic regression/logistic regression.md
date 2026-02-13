@@ -141,3 +141,8 @@ for i in range(iterations):
     # 5. Update theta
     theta = theta - (learning_rate * gradient)
 ```
+for deeper understanding of this topic make sure to check these sources:
+
+- [What is logistic regression?  **(IBM)**](https://www.ibm.com/think/topics/logistic-regression#684929715)
+- [logistic regression (**numiqo**)](https://numiqo.com/tutorial/logistic-regression)
+- [The math behind Logistic Regression (**medium**)](https://medium.com/analytics-vidhya/the-math-behind-logistic-regression-c2f04ca27bca)
