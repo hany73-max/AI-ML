@@ -17,7 +17,7 @@ Standard: Practical application using industry-standard libraries (Scikit-Learn,
 Visualization: Geometric interpretation of model behavior, cost surfaces, and decision boundaries.
 
 📂 Directory Structure
-Plaintext
+```text
 ├── 01_Introduction
 │   ├── Overview          # Project scoping, objectives, and success metrics
 │   └── The_Workflow      # "The Golden Thread": An A-Z end-to-end example
@@ -42,15 +42,14 @@ Plaintext
     ├── Serialization     # Model persistence with Pickle and Joblib
     ├── API_Serving       # Wrapping models in FastAPI or Flask
     └── Containerization  # Dockerizing the ML environment
+```
 
 🚀 Getting Started
 Prerequisites
-To run the notebooks and scripts, you will need Python 3.9+ and the following core stack:
-
+To run the notebooks and scripts, you will need Python and the following core stack:
+```
 NumPy, Pandas (Data Manipulation)
-
 Matplotlib, Seaborn (Visualization)
-
 Scikit-Learn, PyTorch (Modeling)
-
 FastAPI, Uvicorn (Deployment)
+```
