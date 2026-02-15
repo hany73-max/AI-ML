@@ -9,9 +9,7 @@ Every algorithm in this repository is processed through a consistent, four-step 
 2.Mathematics: Formal derivation of objective functions, gradients, and optimization techniques.
 
 3.Implementation:
-
 - From Scratch: Pure NumPy implementation to prove the underlying math.
-
 - Standard: Practical application using industry-standard libraries (Scikit-Learn, PyTorch).
 
 4.Visualization: Geometric interpretation of model behavior, cost surfaces, and decision boundaries.
